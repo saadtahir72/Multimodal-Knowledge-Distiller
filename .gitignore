@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+env/
+
+# API Keys & Secrets
+.env
+config.py
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Vector Database local storage
+chroma_db/
+*.sqlite3
+
+# Audio cache from YouTube downloads
+temp_*.mp3
+temp_*.wav
